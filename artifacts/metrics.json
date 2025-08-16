@@ -1,0 +1,21 @@
+{
+  "task": "regression",
+  "model": "xgboost",
+  "target": "MedHouseVal",
+  "numeric_features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "categorical_features": [],
+  "metrics": {
+    "rmse": 0.4465023052085278,
+    "mae": 0.2911615863693916,
+    "r2": 0.8478610022771997
+  }
+}
